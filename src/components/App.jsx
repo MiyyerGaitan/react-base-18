@@ -3,10 +3,23 @@ import '../styles/App.css';
 
 function App() {
   return (
-    <>
-      <h1>Welcome to My React App 2</h1>
+    <div className="container">
+      <h1>Seguimiento de Restricciones Médicas</h1>
+      <form>
+        <label htmlFor="cedula">Número de Documento:</label>
+          <input
+            type="text"
+            id="cedula"
+            name="cedula"
+            required
+            placeholder="Ingrese su cédula"
+          />
+        <button type="submit">
+          Consultar
+        </button>  
+      </form>
       <Footer />
-    </>
+    </div>
   )
 }
 
