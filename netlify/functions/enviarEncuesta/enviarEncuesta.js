@@ -1,5 +1,4 @@
 import { GoogleAuth } from 'google-auth-library';
-import { sheets_v4 } from 'googleapis';
 
 const credentialsBase64 = process.env.GOOGLE_SERVICE_ACCOUNT_JSON;
 const credentials = JSON.parse(
